@@ -1,0 +1,97 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<!-- <servlet>
+		<servlet-name>Cart</servlet-name>
+		<display-name>Cart</display-name>
+		<description></description>
+		<servlet-class>com.riyaz.servlet.Cart</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CheckUserCart</servlet-name>
+		<display-name>CheckUserCart</display-name>
+		<description></description>
+		<servlet-class>com.riyaz.servlet.CheckUserCart</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewServlet</servlet-name>
+		<display-name>ViewServlet</display-name>
+		<description></description>
+		<servlet-class>com.riyaz.servlet.ViewServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteCart</servlet-name>
+		<display-name>DeleteCart</display-name>
+		<description></description>
+		<servlet-class>com.riyaz.servlet.DeleteCart</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Checkout</servlet-name>
+		<display-name>Checkout</display-name>
+		<description></description>
+		<servlet-class>com.riyaz.servlet.Checkout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CheckUserCart</servlet-name>
+		<url-pattern>/CheckUserCart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewServlet</servlet-name>
+		<url-pattern>/ViewServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteCart</servlet-name>
+		<url-pattern>/DeleteCart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Checkout</servlet-name>
+		<url-pattern>/Checkout</url-pattern>
+	</servlet-mapping> -->
+  <!-- <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.riyaz.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.riyaz.servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Products</servlet-name>
+  	<display-name>Products</display-name>
+  	<description></description>
+  	<servlet-class>com.riyaz.servlet.Products</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Product</servlet-name>
+  	<display-name>Product</display-name>
+  	<description></description>
+  	<servlet-class>com.riyaz.servlet.Products</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Products</servlet-name>
+  	<url-pattern>/Products</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Product</servlet-name>
+  	<url-pattern>/Product</url-pattern>
+  </servlet-mapping>
+ --></web-app>
