@@ -7,6 +7,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>storeDepot Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -39,9 +43,31 @@
     	<artifactId>tachyons</artifactId>
     	<version>4.11.1</version>
 	</dependency>
-    
+    <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>5.4.3.Final</version>
+		</dependency>
+		  <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>5.4.3.Final</version>
+		</dependency>
+		  
   </dependencies>
   <build>
     <finalName>storeDepot</finalName>
+    <plugins>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.2</version> <!-- or whatever current version -->
+    <configuration>
+      <source>1.8</source>
+      <target>1.8</target>
+    </configuration>
+  </plugin>
+</plugins>
   </build>
 </project>

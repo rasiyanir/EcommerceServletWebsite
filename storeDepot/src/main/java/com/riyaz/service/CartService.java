@@ -15,8 +15,8 @@ public class CartService {
 		cartDao = new CartDao();
 	}
 	
-	public String addProduct(String username, int itemID, int quantity, int price) {
-		return cartDao.addToCart(username, itemID, quantity, price);
+	public String addProduct(String username, int itemID, int quantity, int price, String itemName) {
+		return cartDao.addToCart(username, itemID, quantity, price, itemName);
 	}
 	
 	public String deleteProduct(String username, int itemID, int quantity, int price) {

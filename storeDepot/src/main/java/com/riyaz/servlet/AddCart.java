@@ -40,7 +40,7 @@ public class AddCart extends HttpServlet {
 		
 		
 		CartService service = new CartService();
-		String addRes = service.addProduct(username, itemID, quantity, price);
+		String addRes = service.addProduct(username, itemID, quantity, price, itemName);
 		
 		if(addRes == "add") {
 			request.setAttribute("option", addRes);

@@ -1,10 +1,22 @@
 package com.riyaz.bean;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "item")
 public class ProductBean {
+	@Id
 	private int itemID;
 	private String itemName;
 	private int itemPrice;
 	private int itemCount;
+	
+	public ProductBean() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public ProductBean(int itemID, String itemName, int itemPrice, int itemCount) {
 		super();
 		this.itemID = itemID;
